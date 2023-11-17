@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="15dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="10dp"
+        android:layout_gravity="end"
+        >
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_baseline_close_24"
+            android:id="@+id/close"
+            android:layout_gravity="end"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/panduan"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. Aplikasi dapat digunakan pada versi Android minimum Android 8 (Oreo). \n\n2. Aplikasi membutuhkan izin untuk mengakses kamera dan galeri pada saat pertama kali menggunakan aplikasi. \n\n3. Halaman pelatihan data adalah halaman untuk melatih data atau menambahkan data baru berdasarkan 5 nama penyakit yang tersedia dan akan disimpan dalam memori internal. \n\n4. Adapun 5 nama penyakit yang tersedia yaitu Dermatitis Perioral, Karsinoma, Pustula, Rosacea, Tinea Facialis. \n\n5. Halaman pengujian data adalah halaman untuk melakukan pengujian data baru yang menghasilkan output nama penyakit. \n"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:gravity="left"
+            android:paddingRight="20dp"
+            android:paddingLeft="20dp"
+            android:justificationMode="inter_word"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="18sp"
+            android:textColor="@color/black"/>
+    </LinearLayout>
+
+</LinearLayout>
